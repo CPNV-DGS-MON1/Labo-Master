@@ -6,7 +6,7 @@
 
 * [x] Fork the "upstream" repository in your github organisation
 
-![image-20230510201926483](C:\Users\Auggus\Documents\CPNV\GitHub Repos\Labo-Master\labo-01-git-flow\assets\image-20230510201926483.png)
+![image-20230510201926483](assets/image-20230510201926483.png)
 
 * [x] Clone your own repo in your local machine
 
@@ -25,7 +25,7 @@ Resolving deltas: 100% (3/3), done.
 
 ```
 
-![image-20230510202231934](C:\Users\Auggus\Documents\CPNV\GitHub Repos\Labo-Master\labo-01-git-flow\assets\image-20230510202231934.png)
+![image-20230510202231934](assets/image-20230510202231934.png)
 
 * [x] Init Git flow (with standard settings)
 
@@ -49,7 +49,7 @@ Version tag prefix? []
 Hooks and filters directory? [C:/Users/Auggus/Documents/CPNV/GitHub Repos/Labo-Master/.git/hooks]
 ```
 
-![image-20230510202357159](C:\Users\Auggus\Documents\CPNV\GitHub Repos\Labo-Master\labo-01-git-flow\assets\image-20230510202357159.png)
+![image-20230510202357159](assets/image-20230510202357159.png)
 
 * [ ] Integrate updates from upstream (main) into your repository (develop)
 
@@ -64,9 +64,9 @@ upstream        https://github.com/CPNV-MON1/Labo-Master.git (fetch)
 upstream        https://github.com/CPNV-MON1/Labo-Master.git (push)
 ```
 
-![image-20230510202743642](C:\Users\Auggus\Documents\CPNV\GitHub Repos\Labo-Master\labo-01-git-flow\assets\image-20230510202743642.png)
+![image-20230510202743642](assets/image-20230510202743642.png)
 
-![image-20230510202718447](C:\Users\Auggus\Documents\CPNV\GitHub Repos\Labo-Master\labo-01-git-flow\assets\image-20230510202718447.png)
+![image-20230510202718447](assets/image-20230510202718447.png)
 
 * [x] Create a branch feature called "terraformBasicScript"
 
@@ -88,7 +88,7 @@ Now, start committing on your feature. When done, use:
 
 ```
 
-![image-20230510204726937](C:\Users\Auggus\Documents\CPNV\GitHub Repos\Labo-Master\labo-01-git-flow\assets\image-20230510204726937.png)
+![image-20230510204726937](assets/image-20230510204726937.png)
 
 * [x] Add this code and commit it (feat:add basic terraform script")
 
@@ -175,7 +175,7 @@ Summary of actions:
 
 ```
 
-![image-20230510204937515](C:\Users\Auggus\Documents\CPNV\GitHub Repos\Labo-Master\labo-01-git-flow\assets\image-20230510204937515.png)
+![image-20230510204937515](assets/image-20230510204937515.png)
 
 * Push this modification on your repository
 
@@ -201,7 +201,7 @@ branch 'develop' set up to track 'origin/develop'.
 
 ```
 
-![image-20230510205038148](C:\Users\Auggus\Documents\CPNV\GitHub Repos\Labo-Master\labo-01-git-flow\assets\image-20230510205038148.png)
+![image-20230510205038148](assets/image-20230510205038148.png)
 
 * What happens to the feature/branch ?
 
@@ -212,7 +212,7 @@ It got deleted during the "git flow feature finish terraformBasiScript" command
 
 * Open a pull request comparing your develop branch to your main
 
-![image-20230510205350662](C:\Users\Auggus\Documents\CPNV\GitHub Repos\Labo-Master\labo-01-git-flow\assets\image-20230510205350662.png)
+![image-20230510205350662](assets/image-20230510205350662.png)
 
 * Assign the pull request to your partner
 
@@ -220,7 +220,7 @@ It got deleted during the "git flow feature finish terraformBasiScript" command
 Screenshot pull request on github
 ```
 
-![image-20230510210259808](C:\Users\Auggus\Documents\CPNV\GitHub Repos\Labo-Master\labo-01-git-flow\assets\image-20230510210259808.png)
+![image-20230510210259808](assets/image-20230510210259808.png)
 
 * Notify him using a issue "Could you please review my pull request ?"
 
@@ -228,4 +228,4 @@ Screenshot pull request on github
 Screenshot issue on github
 ```
 
-![image-20230510210335049](C:\Users\Auggus\Documents\CPNV\GitHub Repos\Labo-Master\labo-01-git-flow\assets\image-20230510210335049.png)
+![image-20230510210335049](assets/image-20230510210335049.png)
