@@ -217,13 +217,15 @@ It got deleted during the "git flow feature finish terraformBasiScript" command
 * Assign the pull request to your partner
 
 ```
-//TODO
 Screenshot pull request on github
 ```
+
+![image-20230510210259808](C:\Users\Auggus\Documents\CPNV\GitHub Repos\Labo-Master\labo-01-git-flow\assets\image-20230510210259808.png)
 
 * Notify him using a issue "Could you please review my pull request ?"
 
 ```
-//TODO
 Screenshot issue on github
 ```
+
+![image-20230510210335049](C:\Users\Auggus\Documents\CPNV\GitHub Repos\Labo-Master\labo-01-git-flow\assets\image-20230510210335049.png)
