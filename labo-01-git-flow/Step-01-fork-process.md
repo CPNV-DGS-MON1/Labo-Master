@@ -4,41 +4,85 @@
 
 <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Git-flow scenario to master</p></figcaption></figure>
 
-* [ ] Fork the "upstream" repository in your github organisation
+* [x] Fork the "upstream" repository in your github organisation
 
 ```
 //TODO
 Screenshot of Github
 ```
 
+![image-20230509112128829](assets/image-20230509112128829.png)
+
 * [ ] Clone "teacher" repo in your local machine
 
 ```
 [INPUT]
-//TODO
+git clone https://github.com/AlmirRazic/LABO-MASTER.git
 
 [OUTPUT]
-//TODO
+Cloning into 'Labo-Master'...
+remote: Enumerating objects: 12, done.
+remote: Counting objects: 100% (12/12), done.
+remote: Compressing objects: 100% (11/11), done.
+remote: Total 12 (delta 0), reused 12 (delta 0), pack-reused 0
+Receiving objects: 100% (12/12), 4.28 KiB | 547.00 KiB/s, done.
 ```
 
 * [ ] Init Git flow (with standard settings)
 
 ```
 [INPUT]
-//TODO
+git flow init
 
 [OUTPUT]
-//TODO
+No branches exist yet. Base branches must be created now.
+Branch name for production releases: [master]
+Branch name for "next release" development: [develop]
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Almir@DESKTOP-LEVK5OI.(none)')
+fatal: not a valid object name: 'master'
+error: pathspec 'develop' did not match any file(s) known to git
+Fatal: Could not check out branch 'develop'.
+
+2nd[OUTPUT]
+git flow init
+No branches exist yet. Base branches must be created now.
+Branch name for production releases: [master]
+Branch name for "next release" development: [develop]
+
+How to name your supporting branch prefixes?
+Feature branches? [feature/]
+Bugfix branches? [bugfix/]
+Release branches? [release/]
+Hotfix branches? [hotfix/]
+Support branches? [support/]
+Version tag prefix? []
+Hooks and filters directory? [D:/GIT/.git/hooks]
 ```
 
 * [ ] Update your develop branch directly to the upstream (main branch)
 
 ```
 [INPUT]
-//TODO
+git remote add upstream https://github.com/CPNV-MON1/Labo-Master.git
+git remote -v
 
 [OUTPUT]
-//TODO
+origin  https://github.com/AlmirRazic/Labo-Master (fetch)
+origin  https://github.com/AlmirRazic/Labo-Master (push)
+upstream        https://github.com/CPNV-MON1/Labo-Master.git (fetch)
+upstream        https://github.com/CPNV-MON1/Labo-Master.git (push)
 ```
 
 * [ ] Create a branch feature called "feat:add terraform basic  script"
@@ -128,3 +172,4 @@ Screenshot pull request on github
 //TODO
 Screenshot issue on github
 ```
+
