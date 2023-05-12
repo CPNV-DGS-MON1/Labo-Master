@@ -107,7 +107,7 @@ done
 
 <figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>NewRelic's Dashboard</p></figcaption></figure>
 
-* [ ] Repeat this process for your Windows Vm.
+* [x] Repeat this process for your Windows Vm.
 
 ```
 Windows - Powershell admin
