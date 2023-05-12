@@ -13,26 +13,28 @@ Pour Linux, [here is the procedure.](https://howtoinstall.co/en/git-flow)
 
 ```
 [INPUT]
-//TODO
+?
 
 [OUTPUT]
-//TODO
+?
 ```
 
-* [ ] Confirm the installed version
+* [x] Confirm the installed version
 
 ```
 [INPUT]
-//TODO
+git -v
 
 [OUTPUT]
-//TODO
+git version 2.37.3.windows.1
 ```
 
-* [ ] What do you think about this release?
+![image-20230510211238732](C:\Users\Auggus\Documents\CPNV\GitHub Repos\Labo-Master\labo-01-git-flow\assets\image-20230510211238732.png)
+
+* [x] What do you think about this release?
 
 ```
-//TODO
+Great :)
 ```
 
 ## What's git-flow, branches feature.
@@ -41,50 +43,55 @@ Pour Linux, [here is the procedure.](https://howtoinstall.co/en/git-flow)
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Source : A successful git branching model</p></figcaption></figure>
 
-* [ ] Which branches are persistent and what do they contain?
+![img](assets/git-model@2x-1683746314663-3.png)
+
+* [x] Which branches are persistent and what do they contain?
 
 ```
-//TODO
+master and develop, master contains what's in production, developement contains what's the dev team working on
 ```
 
-* [ ] Why do we have to merge hotfix in both master and develop branches, but not into all active feature branches?
+* [x] Why do we have to merge hotfix in both master and develop branches, but not into all active feature branches?
 
 ```
-//TODO
+If the hotfix is only integrated in one of those branches, it will have to be done again on the other, so that's why its merged on both
 ```
 
 ## Initialize git flow on an existing project
 
-* [ ] What happens when you run the "git flow init" command on an existing local repository?
+* [x] What happens when you run the "git flow init" command on an existing local repository?
 
 ```
-//TODO
+It initializes the "develop" branch
 ```
 
-* [ ] When do we need to make this git command?
+* [x] When do we need to make this git command?
 
 ```
-//TODO
+If we want to work with other branches than master
 ```
 
 ## Practice the basic git commands
 
 [Source](https://www.atlassian.com/git/glossary)
 
-* [ ] What does this git command "git add -all" achieve (.gitignore impacts)?
+* [x] What does this git command "git add -all" achieve (.gitignore impacts)?
 
 ```
-//TODO
+It ignores the .gitignore content so everything goes trough
 ```
 
-* [ ] What does this git command "git status" achieve?
+* [x] What does this git command "git status" achieve?
 
 ```
-//TODO
+It shows the untracked files that have been modified
 ```
 
-* [ ] What does this git command "git remote add upstream \<url>" achieve?
+![image-20230510212109664](assets/image-20230510212109664-1683746471104-6.png)
+
+* [x] What does this git command "git remote add upstream \<url>" achieve?
 
 ```
-//TODO
+Adds an upstream to another repository we can pull from
 ```
+
