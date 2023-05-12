@@ -89,10 +89,18 @@ upstream        https://github.com/CPNV-MON1/Labo-Master.git (push)
 
 ```
 [INPUT]
-//TODO
+git flow feature start TerraformBasiScript
 
 [OUTPUT]
-//TODO
+Switched to a new branch 'feature/TerraformBasiScript'
+
+Summary of actions:
+- A new branch 'feature/TerraformBasiScript' was created, based on 'develop'
+- You are now on branch 'feature/TerraformBasiScript'
+
+Now, start committing on your feature. When done, use:
+
+     git flow feature finish TerraformBasiScript
 ```
 
 * [ ] Add this code and commit it
@@ -125,46 +133,85 @@ resource "aws_instance" "app_server" {
 
 ```
 [INPUT]
-//TODO
+git add .
+git commit -m "add terraformbasicscript feature"
 
 [OUTPUT]
-//TODO
+warning: in the working copy of 'labo-01-git-flow/code/terraform.py', LF will be replaced by CRLF the next time Git touches it
+
+[feature/TerraformBasiScript eac6de9] add terraformbasicscript feature
+ 1 file changed, 23 insertions(+)
+ create mode 100644 labo-01-git-flow/code/terraform.py
+
 ```
 
 * [ ] Finish the feature
 
 ```
 [INPUT]
-//TODO
+git flow feature finish TerraformBasiScript
 
 [OUTPUT]
-//TODO
+Switched to branch 'develop'
+Your branch is up to date with 'origin/develop'.
+Updating 31c6a82..eac6de9
+Fast-forward
+ labo-01-git-flow/code/terraform.py | 23 +++++++++++++++++++++++
+ 1 file changed, 23 insertions(+)
+ create mode 100644 labo-01-git-flow/code/terraform.py
+Deleted branch feature/TerraformBasiScript (was eac6de9).
+
+Summary of actions:
+- The feature branch 'feature/TerraformBasiScript' was merged into 'develop'
+- Feature branch 'feature/TerraformBasiScript' has been locally deleted
+- You are now on branch 'develop'
 ```
 
 * Push this modification on your repository
 
 ```
 [INPUT]
-//TODO
+git push
 
 [OUTPUT]
-//TODO
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 619 bytes | 309.00 KiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/AlmirRazic/Labo-Master.git
+   31c6a82..eac6de9  develop -> develop
 ```
 
 * What happens to the feature/branch ?
 
 ```
-//TODO
+the branch is deleted or terminated when i used this command: git flow feature finish TerraformBasiScript
+
+git branch -a
+* develop
+  main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/develop
+  remotes/origin/main
+
 Add your answer with command line used to validate your analysis.
 ```
 
 * Open a pull request comparing your develop branch to your main
+
+  ![image-20230512102252622](./assets/image-20230512102252622.png)
+
 * Assign the pull request to your partner
 
 ```
 //TODO
 Screenshot pull request on github
 ```
+
+![image-20230512103812407](./assets/image-20230512103812407.png)
 
 * Notify him using a issue "Could you please review my pull request ?"
 
@@ -173,3 +220,4 @@ Screenshot pull request on github
 Screenshot issue on github
 ```
 
+![image-20230512103943932](./assets/image-20230512103943932.png)
